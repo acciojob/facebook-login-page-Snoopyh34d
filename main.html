@@ -1,75 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Facebook Login</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background-color: #f0f2f5;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-
-    .container {
-      background-color: #fff;
-      padding: 40px;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      text-align: center;
-    }
-
-    .logo {
-      font-size: 36px;
-      font-weight: bold;
-      color: #3b5998;
-      margin-bottom: 20px;
-    }
-
-    .description {
-      color: #666;
-      margin-bottom: 30px;
-    }
-
-    input[type="text"],
-    input[type="password"] {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ddd;
-      border-radius: 3px;
-    }
-
-    button {
-      background-color: #3b5998;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 3px;
-      cursor: pointer;
-    }
-
-    a {
-      color: #3b5998;
-      text-decoration: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <div class="container">
-    <div class="logo">facebook</div>
-    <div class="description">Facebook helps you connect and share with the people in your life.</div>
+    <div class="login-container">
+        <!-- Facebook Logo Section -->
+        <div class="logo-container">
+            <img class="facebook-logo" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+        </div>
 
-    <form>
-      <input type="text" placeholder="Email address or phone number" required><br>
-      <input type="password" placeholder="Password" required><br>
-      <button type="submit">Log in</button>
-    </form>
+        <!-- Description Section -->
+        <div class="description">
+            <p>Facebook helps you connect and share with the people in your life.</p>
+        </div>
 
-    <a href="#">Forgotten account?</a><br>
-    <button style="background-color: #42b72a;">Create new account</button>
-  </div>
+        <!-- Login Form Section -->
+        <form class="login-form">
+            <div class="input-group">
+                <input type="text" id="email" name="email" placeholder="Email or Phone" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="login-button">Log In</button>
+            </div>
+        </form>
+
+        <!-- Forgotten Account Link -->
+        <div class="forgotten-account">
+            <a href="#">Forgotten account?</a>
+        </div>
+
+        <!-- Create New Account Section -->
+        <div class="create-account">
+            <button class="create-button">Create new account</button>
+        </div>
+    </div>
 </body>
+
 </html>

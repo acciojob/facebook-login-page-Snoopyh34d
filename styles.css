@@ -1,0 +1,104 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login container */
+.login-container {
+    background-color: white;
+    border-radius: 8px;
+    width: 350px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Facebook Logo */
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.facebook-logo {
+    width: 180px;
+}
+
+/* Description text */
+.description p {
+    color: #4b4f56;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Login form */
+.login-form .input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Login button */
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #165e9e;
+}
+
+/* Forgotten Account Link */
+.forgotten-account {
+    margin-top: 10px;
+}
+
+.forgotten-account a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Create new account button */
+.create-account {
+    margin-top: 20px;
+}
+
+.create-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.create-button:hover {
+    background-color: #36a420;
+}
