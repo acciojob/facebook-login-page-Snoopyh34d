@@ -1,104 +1,75 @@
-/* Global styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* Body styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
+
+.main{
     display: flex;
-    justify-content: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
+    padding-top: 260px;
 }
 
-/* Login container */
-.login-container {
-    background-color: white;
-    border-radius: 8px;
-    width: 350px;
-    padding: 40px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
 
-/* Facebook Logo */
-.logo-container {
-    margin-bottom: 20px;
+.form{
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px gray;
+    padding-top: 50px;
+    width: 300px;
+    height: 300px;
+    vertical-align: middle;
+    border-radius: 10px;
+	padding-bottom:50px
 }
-
-.facebook-logo {
-    width: 180px;
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-/* Description text */
-.description p {
-    color: #4b4f56;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-
-/* Login form */
-.login-form .input-group {
-    margin-bottom: 15px;
-}
-
-.input-group input {
-    width: 100%;
+input{
+    margin-bottom: 10px;
     padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-/* Login button */
-.login-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #1877f2;
-    border: none;
+    border: ridge;
     border-radius: 5px;
+    width: 83%;
+    margin-left: 1%;
+}
+.thick{
+    margin: 15px 0;
+    width: 90%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: rgb(114, 111, 111);
+}
+
+.login{
+    background-color: rgb(24, 119, 242);
+    font-size: 20px;
     color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    border: none;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5%;
 }
-
-.login-button:hover {
-    background-color: #165e9e;
-}
-
-/* Forgotten Account Link */
-.forgotten-account {
-    margin-top: 10px;
-}
-
-.forgotten-account a {
-    color: #1877f2;
+a{
     text-decoration: none;
-    font-size: 14px;
-}
+    font-size: 20px;
+	rgb(24, 119, 242)
 
-/* Create new account button */
-.create-account {
-    margin-top: 20px;
 }
+.sign-up{
+    font-size: 20px;
 
-.create-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #42b72a;
-    border: none;
-    border-radius: 5px;
+    align-items: center;
+    background-color: rgb(12, 197, 83);
     color: white;
-    font-size: 16px;
-    cursor: pointer;
+    border: none;
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10%;
 }
-
-.create-button:hover {
-    background-color: #36a420;
+img{
+	width:300px;
 }
