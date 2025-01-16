@@ -43,7 +43,7 @@ input{
 }
 
 .login{
-    background-color: blue;
+    background-color: rgb(24, 119, 242);
     font-size: 20px;
     color: white;
     border: none;
@@ -55,6 +55,7 @@ input{
 a{
     text-decoration: none;
     font-size: 20px;
+	rgb(24, 119, 242)
 
 }
 .sign-up{
