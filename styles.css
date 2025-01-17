@@ -1,111 +1,44 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Main Container */
-.main {
+/*  your css code here. If applicable */
+body{
+    background-color: #f6f6f6;
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    height: 100vh;
 }
-
-/* Left Section */
-.left {
+.left{
+    width: 450px;
+    margin-top: 70px;
+    display: inline-block;
+}
+form{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-    width: 50%;
-}
-
-/* Form Container */
-.form {
-    margin-top: 50px;
-    box-shadow: 0px 0px 10px gray;
-    padding-top: 50px;
+    gap: 10px;
     width: 300px;
-    height: auto;
-    vertical-align: middle;
-    border-radius: 10px;
-    padding-bottom: 50px;
-}
-
-/* Form styling */
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Input Fields */
-input {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
+    background-color:white;
+    padding: 20px;
     border-radius: 5px;
-    width: 83%;
-    margin-left: 1%;
-    font-size: 16px;
+    box-shadow: 0 0 10px #ccc;
 }
-
-/* Separator Line */
-.thick {
-    margin: 15px 0;
-    width: 90%;
-    height: 2px;
-    border-radius: 2px;
-    background-color: rgb(114, 111, 111);
+input{
+    border:1px solid #ccc;
+    border-radius: 5px; 
+    padding: 10px;
 }
-
-/* Login Button */
-.login {
-    background-color: rgb(24, 119, 242);
-    font-size: 20px;
+button{
+    background-color: #1877f2;
+    border-radius: 5px;
+    padding:10px 20px;
     color: white;
     border: none;
-    width: 90%;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 5%;
-    cursor: pointer;
 }
-
-/* Forgot Account Link */
-a {
+a{
     text-decoration: none;
-    font-size: 16px;
-    color: rgb(24, 119, 242);
-    margin-top: 10px;
+    color: #1877f2
 }
-
-/* Sign Up Button */
-.sign-up {
-    font-size: 20px;
-    background-color: rgb(12, 197, 83);
-    color: white;
-    border: none;
-    width: 70%;
-    padding: 10px;
-    border-radius: 5px;
-    margin-left: 10%;
-    cursor: pointer;
-}
-
-/* Logo Image */
-img {
-    width: 250px;
-    margin-bottom: 20px;
-}
-
-/* Additional Styling for the Description Text */
-.logo-des {
-    color: #4b4f56;
-    font-size: 14px;
-    text-align: center;
-    margin-top: 10px;
+.signup{
+    margin: 30px 15px;
+    background-color: #42b72a;
+    width: 300px;
 }
